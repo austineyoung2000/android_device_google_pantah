@@ -21,8 +21,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Iwlan
 
-# Basic Call Recorder
-include vendor/bcr/bcr.mk
 # PowerShare
 include hardware/google/pixel/powershare/device.mk
 
