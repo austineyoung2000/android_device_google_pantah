@@ -26,6 +26,9 @@ include hardware/google/pixel/powershare/device.mk
 # wireless_charger HAL service
 include device/google/gs-common/wireless_charger/wireless_charger.mk
 
+# PixelParts
+-include packages/apps/PixelParts/device.mk
+
 # Build necessary packages for vendor
 
 # Codec2
