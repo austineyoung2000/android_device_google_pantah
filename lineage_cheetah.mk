@@ -21,14 +21,14 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 7 Pro
 PRODUCT_NAME := lineage_$(DEVICE_CODENAME)
 
-# Ship Basic Call Recorder
-$(call inherit-product, vendor/bcr/bcr.mk)
-
 # Addons
 TARGET_HAS_UDFPS := true
 
 # Gms 
 WITH_GMS := true
+
+#Ship Pixel Overlays
+WITH_PIXEL_OVERLAYS := true
 
 # Ship Pixel Launcher
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
