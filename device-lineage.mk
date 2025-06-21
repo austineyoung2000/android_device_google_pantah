@@ -30,8 +30,8 @@ include device/google/gs-common/wireless_charger/wireless_charger.mk
 # PixelParts
 -include packages/apps/PixelParts/device.mk
 
-# Face Unlock
--include vendor/google/faceunlock/config.mk
+# Ship Google Face Unlock ( GFU )
+TARGET_SUPPORTS_GFU := true
 
 # Build necessary packages for vendor
 

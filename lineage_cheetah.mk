@@ -23,6 +23,7 @@ PRODUCT_NAME := lineage_$(DEVICE_CODENAME)
 
 # Addons
 TARGET_HAS_UDFPS := true
+TARGET_PREBUILT_BCR := true
 
 # Gms 
 WITH_GMS := true
@@ -31,13 +32,13 @@ WITH_GMS := true
 WITH_PIXEL_OVERLAYS := true
 
 # Ship Pixel Launcher
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
 
 # Ship Google Camera
 TARGET_PREBUILT_GOOGLE_CAMERA := true
 
 # Lawnchair Prebuilt
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := false
 
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true
@@ -46,6 +47,7 @@ TARGET_ENABLE_BLUR := true
 PRODUCT_USE_SCUDO := true
 
 RISING_MAINTAINER=EliteDarkKaiser
+RISING_VERSION := 7.1
 TARGET_FACE_UNLOCK_SUPPORTED := false
 
 # Boot animation
